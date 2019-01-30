@@ -1,0 +1,59 @@
+/* Make sure you specify a "height: 100vh", "width: 100vw", and "margin: 0" for all your pages */
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	margin:0px;
+}
+.marvel {
+	height: 100%;
+	width: 50%;
+	background-color: #ed1d24;
+}
+.right {
+	height: 100%;
+	width: 50%;
+	background-color: green;
+}
+.top{
+	height: 50%;
+	width: 100%;
+	background-color: #f2efed;
+}
+.mid{
+	height: 50%;
+	width: 100%;
+	display: flex;
+	background-color: blue;
+}
+.black {
+	background-color: black;
+	height:100%;
+	width:50%;
+}
+.gold {
+	background-color: #4c463f;
+	height:100%;
+	width:50%;
+}
+.new{
+	height: 50%;
+	width: 100%;
+	display:flex;
+}
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.restrict-img-size {
+	max-height: 75%;
+	max-width: 75%;
+}
+.newest{
+	background-image:(ve.jpg);
+}
+.reptilia{
+	background-image:(Carnage.png);
+
+}
